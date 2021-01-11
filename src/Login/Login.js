@@ -14,7 +14,7 @@ const schema = yup.object().shape({
 
 
 function Login() {
-    const { register, handleSubmit, errors, watch } = useForm({
+    const { register, handleSubmit, errors} = useForm({
         resolver: yupResolver(schema),
         mode: "onBlur"
     })

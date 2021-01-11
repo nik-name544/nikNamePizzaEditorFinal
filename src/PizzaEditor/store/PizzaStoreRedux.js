@@ -4,7 +4,7 @@ import { configureStore, createSlice, createAsyncThunk } from "@reduxjs/toolkit"
 
 const setQuote = (data) => {
     const data2 = []
-    const data1 = [...data] || []
+    const data1 = [...data] || ["",""]
     const dataS = [{
         dough: {
             'thin': {},

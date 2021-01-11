@@ -1,7 +1,6 @@
 import React from 'react'
-import { Link } from 'react-router-dom' 
-import { useQuery } from "react-query";
-import { useDispatch, useSelector } from "react-redux";
+import { Link } from 'react-router-dom'  
+import { useSelector } from "react-redux";
 
 export default function OrderList() {
     

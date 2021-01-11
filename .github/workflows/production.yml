@@ -36,6 +36,7 @@ jobs:
       - name: install
         run: 
           npm i
+          npm install slick-carousel
       - name: build
         run:
           npm run build

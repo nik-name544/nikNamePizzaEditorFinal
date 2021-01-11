@@ -14,11 +14,11 @@ const schema = yup.object().shape({
 
 
 function Registration() {
-    const { register, handleSubmit, errors, watch } = useForm({
+    const { register, handleSubmit} = useForm({
         resolver: yupResolver(schema),
         mode: "onBlur"
     })
-    const Registered = useSelector(state => state.registered)
+//     const Registered = useSelector(state => state.registered)
     const dispatch = useDispatch();
 
     const onSubmit = (data) => { 

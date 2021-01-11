@@ -1,5 +1,5 @@
 import { configureStore, createSlice, createAsyncThunk } from "@reduxjs/toolkit"; 
-const server = process.env.LINK_TO_ING
+// const server = process.env.LINK_TO_ING
 
 
 const setQuote = (data) => {
@@ -91,6 +91,7 @@ const setQuote = (data) => {
         const itemNew = item
         toppings(itemNew)
     })
+    console.log(newData)
     data2.push(...newNewData)
     return data2
 }

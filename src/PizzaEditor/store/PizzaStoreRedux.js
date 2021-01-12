@@ -91,7 +91,7 @@ const setQuote = (data) => {
         const itemNew = item
         toppings(itemNew)
     })
-    console.log(newData)
+//     console.log(newData)
     data2.push(...newNewData)
     return data2
 }

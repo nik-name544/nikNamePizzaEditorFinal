@@ -87,7 +87,7 @@ const setQuote = (data) => {
         }
     }
 
-    let newData = data1.map((item, i) => {
+    data1.forEach((item, i) => {
         const itemNew = item
         toppings(itemNew)
     })

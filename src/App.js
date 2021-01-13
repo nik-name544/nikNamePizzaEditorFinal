@@ -21,7 +21,6 @@ function App() {
   );
   dispatch({ type: "pizza/servAnswer", isLoading: isLoading, isError: isError, error: error })
 
-  const Registered = useSelector(state => state.registered)
   
   return (
     <>

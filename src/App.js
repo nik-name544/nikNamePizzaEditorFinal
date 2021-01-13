@@ -9,7 +9,7 @@ import OrderList from './OrderList/OrderList';
 import PaymentForm from './PaymentForm/PaymentForm';
 import PizzaEditorForm from './PizzaEditor/PizzaEditorForm'
 import './PizzaEditorStyle.css'
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { useQuery } from "react-query"; 
 
 

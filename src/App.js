@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css';
 import './reset.css'
-import { Link, Route, Switch } from "react-router-dom";
+import { Route, Switch } from "react-router-dom";
 import Checkout from './Checkout/Checkout';
 import Registration from './Login/Registration';
 import Login from './Login/Login';
@@ -22,14 +22,7 @@ function App() {
   dispatch({ type: "pizza/servAnswer", isLoading: isLoading, isError: isError, error: error })
 
   const Registered = useSelector(state => state.registered)
-  const auth = () => {
-    if (Registered) {
-      return "/order-list"
-    } else {
-      return "/login"
-    }
-  }
- 
+  
   return (
     <>
 

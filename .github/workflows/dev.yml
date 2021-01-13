@@ -6,9 +6,9 @@ name: Node.js CI
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ admin ]
+    branches: [ dev ]
   pull_request:
-    branches: [ admin ]
+    branches: [ dev ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -44,8 +44,8 @@ jobs:
         uses: netlify/actions/cli@master
         env:
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
-          NETLIFY_SITE_ID: ${{ secrets.ADMIN_NETLIFY_SITE_ID }}
+          NETLIFY_SITE_ID: ${{ secrets.DEV_NETLIFY_SITE_ID }}
         with: 
           args: deploy --dir=build --prod
-          secrets: '["NETLIFY_AUTH_TOKEN", "NETLIFY_SITE_ID"]'
+          secrets: '["NETLIFY_AUTH_TOKEN", "DEV_NETLIFY_SITE_ID"]'
 

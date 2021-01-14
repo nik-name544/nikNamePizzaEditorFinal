@@ -45,7 +45,7 @@ const schema = yup.object().shape({
 });
 
 const sendOrder = (data) => {
-    return fetch(`http://localhost:4000/orders`,
+    return fetch(`https://dzs9l.sse.codesandbox.io/orders`,
         {
             method: "POST",
             body: JSON.stringify({ "name": data[3], "ingredients": data[2], "address": data[1], "card_number": data[0] }),

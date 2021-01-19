@@ -1,0 +1,759 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+body {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.block {
+    margin-bottom: 25px;
+}
+
+.submitBtn__inner {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 40px;
+    padding: 12px 16px;
+    background: #FFFFFF;
+    box-shadow: 0px -16px 32px rgba(75, 75, 124, 0.05), 0px 0px 4px rgba(75, 75, 124, 0.1);
+    border: none;
+}
+
+.submitBtn {
+    font-family: Rounded Mplus 1c;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+    height: 100%;
+    width: 100%;
+    background: #00A896;
+    border-radius: 16px;
+    border: none;
+}
+
+.cheese__title,
+.vegetables__title,
+.meat__title {
+    color: #4B4B7C;
+    font-family: Rounded Mplus 1c;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 15px;
+}
+
+.mozzarella__title::before {
+    background-image: url(./PizzaEditor/img/mozarella.png);
+}
+
+
+.cheddar__title::before {
+
+    background-image: url(./PizzaEditor/img/cheddar.png);
+}
+
+.dor-blue__title::before {
+
+    background-image: url(./PizzaEditor/img/dor-blue.png);
+}
+
+
+.tomato__title::before {
+    background-image: url(./PizzaEditor/img/tomato.png);
+}
+
+.mushrooms__title::before {
+    background-image: url(./PizzaEditor/img/mashrooms.png);
+}
+
+.pepper__title::before {
+    background-image: url(./PizzaEditor/img/pepper.png);
+}
+
+
+.bacon__title::before {
+    background-image: url(./PizzaEditor/img/bacon.png);
+}
+
+.pepperoni__title::before {
+    background-image: url(./PizzaEditor/img/pepperoni.png);
+}
+
+.ham__title::before {
+    background-image: url(./PizzaEditor/img/ham.png);
+}
+
+.salami__title::before {
+    background-image: url(./PizzaEditor/img/salami.png);
+}
+
+.chicken__title::before {
+    background-image: url(./PizzaEditor/img/chicken0.png);
+
+}
+
+.olives__title::before {
+    background-image: url(./PizzaEditor/img/olives0.png);
+}
+
+.pineapple__title::before {
+    background-image: url(./PizzaEditor/img/pineapple0.png);
+}
+
+.broccoli__title::before {
+    background-image: url(./PizzaEditor/img/broccoli0.png);
+}
+
+.onion__title::before {
+    background-image: url(./PizzaEditor/img/onion0.png);
+}
+
+label input[type="radio"]:checked+#dough-fluffy__text,
+label input[type="radio"]:checked+#dough-thin__text,
+label input[type="radio"]:checked+#size-small__text,
+label input[type="radio"]:checked+#size-big__text,
+label input[type="radio"]:checked+#tomato-sauce__text,
+label input[type="radio"]:checked+#white-sauce__text,
+label input[type="radio"]:checked+#spicy-sauce__text {
+    background: #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(75, 75, 124, 0.05);
+}
+
+.submit__btn-wrapper {
+    background: #FFFFFF;
+    box-shadow: 0px -16px 32px rgba(75, 75, 124, 0.05), 0px 0px 4px rgba(75, 75, 124, 0.1);
+    padding: 12px 16px;
+    width: 100%;
+    position: sticky;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+}
+
+.submit__btn-inner {
+    background: #00A896;
+    border-radius: 16px;
+    padding: 12px;
+    text-align: center;
+    width: 100%;
+    border: none;
+}
+
+
+
+.submit__btn {
+    font-family: Rounded Mplus 1c;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.payment-form,
+.auth-form,
+.order-list,
+.order {
+    background: #F9F9FB;
+    width: 360px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.order {
+    background: #fff;
+}
+
+.payment-form__header {
+    display: flex;
+    position: relative;
+}
+
+.payment-form__header-link {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 5px;
+    background-repeat: no-repeat;
+    top: 11px;
+    background-image: url(./PizzaEditor/img/Button-Iconic.png);
+}
+
+.payment-form__title {
+    font-family: Rounded Mplus 1c;
+    font-style: normal;
+    font-weight: 800;
+    color: #1F1F33;
+    font-size: 20px;
+    padding-left: 54px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-top: 15px;
+}
+
+.payment-form__pizza {
+    margin: 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(75, 75, 124, 0.05);
+    border-radius: 16px;
+    padding: 12px 16px;
+    margin: 16px 16px 25px;
+}
+
+.payment-form__pizza-title {
+    font-family: Rounded Mplus 1c;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #1F1F33;
+    padding-bottom: 12px;
+}
+
+.payment-form__pizza-text {
+    font-family: Rounded Mplus 1c;
+    font-style: normal;
+    font-weight: normal;
+    border-bottom: 1px dashed #E1E1ED;
+    font-size: 12px;
+    color: #4B4B7C;
+    padding-bottom: 6px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.payment-form__pizza-price {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.payment-form__address-text {
+    padding-bottom: 20px;
+    font-family: Rounded Mplus 1c;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #1F1F33;
+}
+
+.payment-form__address-input-big {
+    max-width: 100%;
+    width: 328px;
+    padding: 9px;
+    border: 2px solid #E1E1ED;
+    border-radius: 6px;
+}
+
+.payment-form__address-input-name {
+    text-transform: uppercase;
+    color: #1F1F33;
+}
+
+.payment-form__address-input-big::placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #1F1F33;
+    opacity: 0.5;
+}
+
+.payment-form__address-inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    margin-bottom: 23px;
+}
+
+.payment-form__address-input {
+    width: 105px;
+    margin-top: 8px;
+    background: #FFFFFF;
+    border: 2px solid #E1E1ED;
+    border-radius: 6px;
+    padding: 12px;
+}
+
+.payment-form__address-input-label {
+    display: flex;
+    flex-direction: column;
+    font-family: Rounded Mplus 1c;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #4B4B7C;
+}
+
+.payment-form__address-small-inner {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+
+.payment-form__address-input-small {
+    background: #FFFFFF;
+    border: 2px solid #E1E1ED;
+    border-radius: 6px;
+    padding: 12px;
+    width: 64px;
+}
+
+.payment-form__address-input-small::placeholder {
+    color: #1F1F33;
+    opacity: 0.5;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.payment-form__address-input-small.payment-form__address-input-date {
+    width: 105px;
+}
+
+.payment-form__address-bot-text {
+    padding-top: 45px;
+    font-family: Rounded Mplus 1c;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4B4B7C;
+}
+
+.footer {
+    background-color: #fff;
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 12px 0px;
+    box-shadow: 0px -16px 32px rgba(75, 75, 124, 0.05), 0px 0px 4px rgba(75, 75, 124, 0.1);
+}
+
+.footer-top__text-inner,
+.footer-bot__text-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-top {
+    border-bottom: 1px dashed #E1E1ED;
+}
+
+.footer-bot {
+    padding-top: 8px;
+}
+
+.footer-bot__btn {
+    text-decoration: none;
+}
+
+.footer-top__text {
+    padding-bottom: 8px;
+    font-family: Rounded Mplus 1c;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #4B4B7C;
+}
+
+.footer-top__price {
+    font-family: Rounded Mplus 1c;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #4B4B7C;
+}
+
+.footer-bot__text {
+    font-family: Rounded Mplus 1c;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #4B4B7C;
+}
+
+.footer-bot__price {
+    font-family: Rounded Mplus 1c;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #4B4B7C;
+}
+
+.footer-bot__btn-inner {
+    background: #F9F9FB;
+    border-radius: 16px;
+    padding: 12px 16px;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.footer-bot__btn {
+    font-family: Rounded Mplus 1c;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    color: #8181B1;
+    opacity: 0.5;
+}
+
+.footer-bot__btn-inner.active {
+    background: #00A896;
+}
+
+.footer-bot__btn.active {
+    color: #ffffff;
+    opacity: 1;
+}
+
+.auth-form {
+    padding-bottom: 30vh;
+}
+
+.auth-form__form {
+    background: #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(75, 75, 124, 0.05);
+    border-radius: 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+
+}
+
+.auth-form__label {
+    display: flex;
+    flex-direction: column;
+    font-family: Rounded Mplus 1c;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #4B4B7C;
+
+}
+
+.auth-form__input {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 12px;
+    background: #FFFFFF;
+    border: 2px solid #E1E1ED;
+    border-radius: 6px;
+}
+
+.auth-form__input.wrong {
+    border: 2px solid #E3170A;
+    color: #e3170a;
+    outline: #e3170a;
+}
+
+.auth-form__btn-inner.active {
+    background: #00A896;
+}
+
+.auth-form__btn-inner {
+    background: #F9F9FB;
+    border-radius: 16px;
+    width: 100%;
+    margin-top: 15px;
+    padding: 12px;
+    text-align: center;
+}
+
+.auth-form__btn {
+    font-family: Rounded Mplus 1c;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 16px;
+    color: #8181B1;
+    opacity: 0.5;
+    text-decoration: none;
+    width: 100%;
+}
+
+.auth-form__btn.active {
+    color: #ffffff;
+    opacity: 1;
+}
+
+.auth-form__wrong {
+    margin-top: -10px;
+    display: none;
+    font-family: Rounded Mplus 1c;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.auth-form__wrong.wrong {
+    display: block;
+    color: #E3170A;
+}
+
+.order-list__wrapper {
+    margin-top: 20px;
+    padding-bottom: 30vh;
+}
+
+.order-list__item {
+    background: #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(75, 75, 124, 0.05);
+    border-radius: 16px;
+    padding: 12px 16px;
+    margin-bottom: 8px;
+}
+
+.order-list__item-top {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.order-list__item-num {
+    font-family: Rounded Mplus 1c;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #4B4B7C;
+    padding-right: 15px;
+}
+
+.order-list__item-state {
+    font-family: Rounded Mplus 1c;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #8181B1;
+}
+
+.order-list__item-title {
+    font-family: Rounded Mplus 1c;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #1F1F33;
+    padding-bottom: 10px;
+}
+
+.order-list__item-text {
+    font-family: Rounded Mplus 1c;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #4B4B7C;
+    padding-bottom: 8px;
+    border-bottom: 1px dashed #E1E1ED;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.order-list__ing {
+    padding-right: 10px;
+    list-style: none;
+}
+
+.order-list__item-bot {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0 5px;
+}
+
+.order-list__item-paid {
+    font-family: Rounded Mplus 1c;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #4B4B7C;
+}
+
+.order-list__item-bot-state.delivered {
+    font-family: Rounded Mplus 1c;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #F3752B;
+    position: relative;
+    padding-left: 20px;
+
+}
+
+.order-list__item-bot-state.delivered::before,
+.order-list__item-bot-state::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 0;
+    top: 2px;
+    background-repeat: no-repeat;
+}
+
+.order-list__item-bot-state.delivered::before {
+    background-image: url(./PizzaEditor/img/Exclude.png);
+}
+
+
+.order-list__item-bot-state {
+    color: #009485;
+    position: relative;
+    padding-left: 20px;
+}
+
+.order-list__item-bot-state::before {
+    background-image: url(./PizzaEditor/img/Vector.png);
+}
+
+.order__close-btn {
+    background-image: url(./PizzaEditor/img/icn_error.png);
+    width: 16px;
+    height: 16px;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.order__ico {
+    margin: 35px auto 20px;
+    width: 67px;
+    height: 67px;
+    background-image: url(./PizzaEditor/img/ok-Icon.png);
+}
+
+.order__ico.wrong {
+    width: 67px;
+    height: 67px;
+    background-image: url(./PizzaEditor/img/wrong-Icon.png);
+}
+
+.order__title {
+    text-align: center;
+    font-family: Rounded Mplus 1c;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: #1F1F33;
+    padding-bottom: 10px;
+}
+
+.order__text {
+    font-family: Rounded Mplus 1c;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    color: #4B4B7C;
+    padding-bottom: 30px;
+    margin: 0 50px;
+}
+
+.order__btn.wrong {
+    background: #00A896;
+    border-radius: 16px;
+    margin: 0 16px;
+    padding: 12px;
+    text-align: center;
+}
+
+.order__btn-text {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Rounded Mplus 1c;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.slick-slide {
+    margin-left: 5px;
+    transform: translateX(-22px);
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    height: 120px;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    background-image: url(./PizzaEditor//img/Logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-name: logoRotate;
+    margin: auto;
+}
+
+@keyframes logoRotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.pizza-list__ing {
+    padding-right: 13px;
+    font-family: Rounded Mplus 1c;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #4B4B7C;
+}
+
+.pizza__name {
+    font-family: Rounded Mplus 1c;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    color: #1F1F33;
+    padding-left: 10px;
+}
+
+.header {
+    width: 360px;
+    height: 56px;
+    padding: 16px 20px 16px 16px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__logo {
+    width: 156px;
+    height: 24px;
+    background-image: url(./PizzaEditor/img/Brand.svg);
+}
+
+.header__profile {
+    width: 24px;
+    height: 24px;
+    background-image: url(./PizzaEditor/img/icn_account.svg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
